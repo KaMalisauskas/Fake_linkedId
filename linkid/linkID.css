@@ -1,0 +1,432 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background-color: #e1e9ee;
+}
+a {
+  text-decoration:none;
+}
+/*navigation*/
+#nav {
+  width: auto;
+  height: 50px;
+  background-color: #283e4a;
+  margin: auto;
+}
+
+#nav .logo {
+  width: 32px;
+  height: 32px;
+  margin-left: 20%;
+  margin-top: 9px;
+  float: left;
+}
+#nav .search_bar {
+  height: 32px;
+  width: 250px;
+  background-color: #e1e9ee;
+  border: none;
+  border-radius: 2px;
+  color:#283e4a;
+  font-family: arial;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  margin-left: 0.5%;
+}
+#nav .nav_home {
+  float: left;
+  margin-left: 200px;
+}
+#nav .nav_logo {
+  width: 20px;
+  height: 20px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+#nav .nav_text {
+  color: white;
+  margin-left: -8px;
+  margin-top: -3px;
+  color: #e1e9ee;
+}
+#nav .nav_direction {
+  float: left;
+  margin-left: 40px;
+}
+#nav .myNetwork_logo {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+#nav .job_logo {
+  margin-left: -5px;
+}
+#nav .mesaging_logo {
+  margin-left: 18px;
+}
+#nav .notification_logo {
+  margin-left: 20px;
+}
+#nav .prof_photo {
+  width: 25px;
+  height: 25px;
+  margin-left: -10px;;
+  margin-top: 6px;
+  float: left;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+#nav .nav_work {
+  border-left: 1px solid grey;
+  padding-left: 5px;
+  height: 50px;
+  float: left;
+}
+#nav .work_logo {
+    margin-left: 30px;
+}
+#nav .work_text {
+  margin-left: 22px;
+  color: #e1e9ee;
+  margin-top: -1px;
+}
+#nav .nav_premium {
+  margin-left: 50px;
+  color: #e1e9ee;
+  margin-top: 8px;
+  float: left;
+}
+#nav .nav_free{
+  margin-left: 13px;
+  color: #e1e9ee;
+  margin-top: 8px;
+/*container*/
+}
+#containers {
+clear: both;
+}
+/*first container*/
+#first_container {
+  width: 220px;
+  height: 350px;
+  margin-left: 25%;
+  margin-top: 20px;
+  border: 1px solid #D0D0D0;
+  float: left;
+  padding: 0;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0.5px 0.5px 1px 0.5px grey;
+}
+#first_container .border {
+  height: auto;
+  border-bottom: 1px solid #e1e9ee;
+}
+#first_container .cover_photo {
+  background: url(http://krishaweb.s3.amazonaws.com/sites/536207e0e52e306190000002/theme/images/blog-banner.jpg) no-repeat bottom center;
+  width: 218px;
+  height: 72px;
+  margin: 0;
+  background-size: cover;
+    border-radius:7px 7px 0 0;
+}
+#first_container .profile_photo {
+  background: url(https://tommygirard.files.wordpress.com/2016/12/alan-turing.jpg) no-repeat center center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-size: cover;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 80px;
+  border: 2px solid white;
+}
+#first_container h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+#first_container .prof_info {
+  text-align: center;
+  font-size: 12px;
+  font-family: arial;
+  color: grey;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+#first_container .date {
+  margin-top: 14px;
+  color: #87CEEB;
+  text-align: center;
+  font-size: 120%;
+}
+#first_container .manage {
+  font-size: 105%;
+  font-weight: bold;
+  color: black;
+  margin: 3px;
+}
+/*secon container*/
+#second_container {
+  margin-left: 2%;
+  margin-top: 20px;
+  float: left;
+}
+/*second containers status bar */
+#second_container #status_update {
+  width: 500px;
+  height: 130px;:
+  border:1px solid #e1e9ee;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-bottom: 10px;
+}
+#second_container #status_update input {
+  width: 460px;
+  border: none;
+  border-bottom: 1px solid #e1e9ee;
+  margin:0 20px;
+  padding: 30px 0;
+}
+#second_container #status_update .camera_logo {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-left: -45px;
+  margin-top: 27px;
+}
+#second_container #status_update .write_article {
+  float: left;
+  margin-left: 22px;
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+}
+#second_container #status_update .write_logo{
+  width: 15px;
+  height: 15px;
+  float:left;
+}
+#second_container #status_update a {
+  float: left;
+  position: relative;
+  margin-left: 7px;
+  color: grey;
+  font-size: 100%;
+}
+#second_container #status_update button {
+  float: right;
+  background-color: #3399FF;
+  border: none;
+  width: 70px;
+  height: 30px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+/*secon containers post section*/
+#second_container .post {
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-top: 5px;
+  box-shadow: 0.5px 0.5px 1px 0.5px grey;
+  background: white;
+  padding: 13px;
+}
+#second_container .post_logo {
+  float: left;
+  width: 50px;
+  height: 45px;
+
+}
+#second_container .post_layout {
+  float: left;
+  text-decoration: none;
+  font-size:90%;
+  margin-left: 5px;
+  color: #3399FF;
+}
+#second_container .post_text {
+  clear: both;
+  color: grey;
+  margin-top: 70px;
+  font-family: Helvetica arial;
+}
+#second_container .nrlikes {
+  margin-top: 13px;
+  color: grey;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #e1e9ee;
+}
+
+ #action_buttons .like {
+  width: 20px;
+  height: 20px;
+  margin-top:3px;
+  display: inline-block;
+
+}
+#action_buttons .action_text {
+  margin-left: 10px;
+  margin-top: 7px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+#action_buttons .comment_share_logo {
+  width: 20px;
+  height: 20px;
+  margin-top:5px;
+
+  margin-left: 15px;
+  display: inline-block;
+}
+/*Suggestion part*/
+#second_container .suggestion_block {
+  width: 500px;
+  height: auto;
+  border:1px solid #e1e9ee;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-top: 5px;
+  padding: 13px 13px 0 13px;
+}
+#second_container .suggestion_block .more {
+  width:28px;
+  height: 20px;
+  float: right;
+  margin-top: 2px;
+}
+#second_container .suggestion_block .suggestion_header {
+  color:grey;
+  border-bottom: 1px solid #e1e9ee;
+  padding-bottom: 10px;
+}
+#second_container .suggestion_block .suggestion_content {
+  margin-top: 5px;
+}
+#second_container .suggestion_block .suggestion_link img {
+  width: 474px;
+  height:220px;
+}
+#second_container .suggestion_block .link_box {
+  width: 474px;
+  height: auto;
+  border:1px solid #e1e9ee;
+  padding: 4px;
+  margin-top: -4px;
+}
+#second_container .suggestion_block .suggestion_link_title {
+  font-weight: bold;
+  font-size: 90%;
+}
+#second_container .suggestion_block .suggestion_link_url {
+  font-size: 80%;
+  color: grey;
+}
+/*third container*/
+#third_container {
+  margin-left: 2%;
+  float: left;
+  margin-top: 20px;
+}
+/*third containers add section*/
+#third_container .advirtisment {
+  width: 300px;
+  height: 300px;
+  border:1px solid #e1e9ee;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px grey;
+  padding: 5px;
+}
+#third_container .advirtisment_content {
+border:1px solid #e1e9ee;
+width: 287px;
+height:  287px;
+}
+#third_container .advirtisment_content .add {
+  float: right;
+  color: grey;
+  font-size: 60%;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+#third_container .advirtisment_content .add_logo {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+#third_container .advirtisment_content .add_title {
+  margin-top: 15%;
+  text-align: center;
+  color: grey;
+  font-size: 80%;
+}
+
+#third_container .advirtisment_content .add_photo {
+  background: url(https://tommygirard.files.wordpress.com/2016/12/alan-turing.jpg) no-repeat center center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-size: cover;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+#third_container .advirtisment_content .add_name {
+  background: url(https://tsociety.io/wp-content/uploads/2016/11/ts_300.png)no-repeat center center;
+  width: 82px;
+  height: 60px;
+  float: left;
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#third_container .advirtisment_content .add_about {
+  text-align: center;
+  color: grey;
+  clear: both;
+  font-size: 90%;
+  margin-bottom: 30px;
+}
+#third_container .advirtisment_content .add_follow {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #3399FF;
+  margin:10px;
+  padding: 9px;
+  margin-left: 100px;
+  padding-left: 12px;
+}
+#third_container .another {
+  width: 300px;
+  height: 200px;
+  border-top:  1px solid  #3399FF;
+  float: left;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding:30px 10px 10px 30px;
+}
+#third_container .another_first_line {
+  word-spacing: 20px;
+  font-size: 80%;
+  padding: 10px;
+  color:grey;
+}
+#third_container .no_spacing {
+  word-spacing: normal;
+}
+#third_container .another_second_line {
+  word-spacing: 20px;
+  font-size: 80%;
+  margin-left: 10px;
+}
